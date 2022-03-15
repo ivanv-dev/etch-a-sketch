@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 10%;
+    height: 552px;
+    width: 512px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navigation-pane{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sketch-area{
+    height: 512px;
+    width: 512px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
